@@ -16,7 +16,7 @@ async def download_instagram_video(link):
                 return download_link['href']
     return None
 
-@app.on_message(filters.command("instadownload") | filters.regex(r'^https?:\/\/(?:www\.)?instagram\.com\/p\/[\w\-]+\/?$'))
+@app.on_message(filters.command("ig") | filters.regex(r'^https?:\/\/(?:www\.)?instagram\.com\/p\/[\w\-]+\/?$'))
 async def instadownload_command(bot, message):
     try:
         link = None
