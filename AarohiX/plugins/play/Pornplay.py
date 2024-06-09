@@ -7,7 +7,7 @@ import os, yt_dlp
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from pytgcalls.types import AudioVideoPiped
 from AarohiX.plugins.play import play
-from AarohiX.plugins.play.pornplay import play
+from AarohiX.plugins.play import play
 
 keyboard = InlineKeyboardMarkup([
         [
