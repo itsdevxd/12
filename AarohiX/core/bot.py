@@ -3,6 +3,8 @@ from pyrogram.enums import ChatMemberStatus, ParseMode
 
 import config
 
+from ..logging import LOGGER
+
 
 class Dil(Client):
     def __init__(self):
